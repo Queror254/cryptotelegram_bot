@@ -25,8 +25,8 @@ export default function Home(): JSX.Element {
   };
 
   return (
-    <main className="flex h-full flex-col items-center justify-between p-10 bg-black bg_img">
-      <div className="mx-auto w-full h-full max-w-lg rounded-lg bg-gray-900 p-2 pt-4 shadow-card  xs:p-6 xs:pt-5 ">
+    <main className="flex h-full flex-col items-center justify-between p-2 bg-black bg_img">
+      <div className="mx-auto w-full h-screen max-w-lg rounded-lg bg-gray-900 p-2 pt-4 shadow-card  xs:p-6 xs:pt-5 ">
         <header className="mb-3 min-h-[40px]  border-gray-200 pb-4 uppercase tracking-wider dark:border-gray-700 xs:mb-6 xs:pb-5 xs:tracking-wide">
           <h1 className="text-slate-200 px-2">KRYPTOBAY</h1>
         </header>
@@ -193,10 +193,12 @@ export default function Home(): JSX.Element {
               <input inputMode="decimal" className="md w-full rounded-lg border-0 px-2 text-base text-right outline-none focus:ring-0 ltr:text-right rtl:text-left text-gray-900 dark:text-slate-200 dark:bg-inherit" type="text" placeholder="00.000 KES" />
             </div>
 
-            <button className="relative bg-gray-600 inline-flex shrink-0 items-center justify-center overflow-hidden text-center text-xs font-medium tracking-wider outline-none transition-all sm:text-sm bg-brand border-brand hover:-translate-y-0.5 hover:shadow-large focus:-translate-y-0.5 focus:shadow-large focus:outline-none w-full text-white rounded-md sm:rounded-lg px-7 sm:px-9 h-11 sm:h-13 mt-6 uppercase xs:mt-8 xs:tracking-widest xl:px-2 2xl:px-9"
-              type="submit">
-              <span className="">Process to wallet</span>
-            </button>
+            <Link href="/verify">
+              <button className="relative bg-gray-600 inline-flex shrink-0 items-center justify-center overflow-hidden text-center text-xs font-medium tracking-wider outline-none transition-all sm:text-sm bg-brand border-brand hover:-translate-y-0.5 hover:shadow-large focus:-translate-y-0.5 focus:shadow-large focus:outline-none w-full text-white rounded-md sm:rounded-lg px-7 sm:px-9 h-11 sm:h-13 mt-6 uppercase xs:mt-8 xs:tracking-widest xl:px-2 2xl:px-9"
+                type="submit">
+                <span className=""> Process to wallet</span>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
