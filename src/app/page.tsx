@@ -25,19 +25,19 @@ export default function Home(): JSX.Element {
   };
 
   return (
-    <main className="flex h-full flex-col items-center justify-between p-2 bg-black bg_img">
-      <div className="mx-auto w-full h-screen max-w-lg rounded-lg bg-gray-900 p-2 pt-4 shadow-card  xs:p-6 xs:pt-5 ">
+    <main className="flex h-screen w-auto items-center bg-black bg_img">
+      <div className="mx-auto w-full h-full  max-w-lg rounded-lg bg-gray-900 p-2 pt-4 shadow-card  xs:p-6 xs:pt-5 ">
         <header className="mb-3 min-h-[40px]  border-gray-200 pb-4 uppercase tracking-wider dark:border-gray-700 xs:mb-6 xs:pb-5 xs:tracking-wide">
           <h1 className="text-slate-200 px-2">KRYPTOBAY</h1>
         </header>
         <div className="buYSell p-5">
-          <div className="intro_ctnt p-4 text-center text-xl">
+          <div className="intro_ctnt p-4 text-center text-xl d_none">
             Welcome to KryptoBay <br />
             Your all in one crypto exchange platform
           </div>
           <div className="flex flex-col gap-5 relative mb-6 text-sm uppercase sm:gap-8 sm:rounded-none" role="tablist" aria-orientation="horizontal">
             <div className="rounded-lg border text-gray-900 dark:text-slate-200 border-gray-200 dark:border-gray-700 dark:hover:border-gray-500 ">
-              <button className="flex w-full items-center justify-center text-2xl p-5 uppercase text-gray-400 dark:text-gray-300 dark:bg-gray-900 rounded-md sm:px-5 sm:py-3.5">
+              <button className="flex w-full items-center justify-center text-2xl p-4 uppercase text-gray-400 dark:text-gray-300 dark:bg-gray-600 rounded-md sm:px-5 sm:py-2.5">
                 <span className="font-medium">
                   BUY
                 </span>

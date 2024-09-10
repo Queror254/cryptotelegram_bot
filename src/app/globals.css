@@ -39,3 +39,7 @@ body {
   background-size: cover;
   background-blend-mode: lighten;
 }
+
+.d_none {
+  display: none !important;
+}
