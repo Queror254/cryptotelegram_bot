@@ -40,6 +40,10 @@ body {
   background-blend-mode: lighten;
 }
 
+.icon_x {
+  color: white !important;
+}
+
 .d_none {
   display: none !important;
 }

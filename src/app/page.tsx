@@ -26,27 +26,27 @@ export default function Home(): JSX.Element {
 
   return (
     <main className="flex h-screen w-auto items-center bg-black bg_img">
-      <div className="mx-auto w-full h-full  max-w-lg rounded-lg bg-gray-900 p-2 pt-4 shadow-card  xs:p-6 xs:pt-5 ">
-        <header className="mb-3 min-h-[40px]  border-gray-200 pb-4 uppercase tracking-wider dark:border-gray-700 xs:mb-6 xs:pb-5 xs:tracking-wide">
-          <h1 className="text-slate-200 px-2">KRYPTOBAY</h1>
+      <div className="mx-auto w-full h-screen  max-w-lg rounded-lg bg-gray-900 p-2 pt-4 shadow-card  xs:p-6 xs:pt-5 ">
+        <header className="mb-3 min-h-[40px]  border-gray-200 pb-2 uppercase tracking-wider dark:border-gray-700 xs:mb-6 xs:pb-5 xs:tracking-wide">
+          <h1 className="text-slate-200 px-2"></h1>
         </header>
-        <div className="buYSell p-5">
+        <div className="buYSell py-1 px-2">
           <div className="intro_ctnt p-4 text-center text-xl d_none">
             Welcome to KryptoBay <br />
             Your all in one crypto exchange platform
           </div>
           <div className="flex flex-col gap-5 relative mb-6 text-sm uppercase sm:gap-8 sm:rounded-none" role="tablist" aria-orientation="horizontal">
-            <div className="rounded-lg border text-gray-900 dark:text-slate-200 border-gray-200 dark:border-gray-700 dark:hover:border-gray-500 ">
-              <button className="flex w-full items-center justify-center text-2xl p-4 uppercase text-gray-400 dark:text-gray-300 dark:bg-gray-600 rounded-md sm:px-5 sm:py-2.5">
+            <div className="rounded-lg border text-gray-900 dark:text-slate-200 border-gray-200 dark:border-gray-700 dark:hover:border-gray-500">
+              <button className="flex w-full items-center justify-center text-2xl p-3 uppercase text-gray-400 dark:text-gray-300 dark:bg-gray-600 rounded-md sm:px-2 sm:py-4">
                 <span className="font-medium">
-                  BUY
+                  KRYPTOBAY
                 </span>
               </button>
             </div>
           </div>
 
           <div className="relative mb-6 text-sm uppercase sm:gap-8 sm:rounded-none" role="tablist" aria-orientation="horizontal">
-            <div className="rounded-lg border text-gray-900 dark:text-slate-200 border-gray-200 dark:border-gray-700 dark:hover:border-gray-500 ">
+            <div className="rounded-lg border text-gray-900 dark:text-slate-200 border-gray-200 dark:border-gray-700 dark:hover:border-gray-500">
               <button className="flex w-full items-center justify-center gap-2 p-5 uppercase text-gray-400 dark:text-gray-300 sm:px-5 sm:py-3.5"
                 onClick={ toggleBuyDropdown }>
                 <span className="font-medium">
@@ -196,7 +196,7 @@ export default function Home(): JSX.Element {
             <Link href="/verify">
               <button className="relative bg-gray-600 inline-flex shrink-0 items-center justify-center overflow-hidden text-center text-xs font-medium tracking-wider outline-none transition-all sm:text-sm bg-brand border-brand hover:-translate-y-0.5 hover:shadow-large focus:-translate-y-0.5 focus:shadow-large focus:outline-none w-full text-white rounded-md sm:rounded-lg px-7 sm:px-9 h-11 sm:h-13 mt-6 uppercase xs:mt-8 xs:tracking-widest xl:px-2 2xl:px-9"
                 type="submit">
-                <span className=""> Process to wallet</span>
+                <span className=""> Buy</span>
               </button>
             </Link>
           </div>
