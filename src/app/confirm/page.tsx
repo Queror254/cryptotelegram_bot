@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Links(): JSX.Element {
 
     return (
-        <main className="flex h-screen w-auto items-center bg-black bg-gray-900 px-3 shadow-card">
+        <main className="flex h-screen w-auto justify-center items-center bg-black bg-gray-900 px-3 shadow-card">
 
             <div className="border rounded-lg shadow relative max-w-sm">
                 <div className="flex justify-end p-2">
