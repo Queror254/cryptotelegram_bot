@@ -57,11 +57,13 @@ export default function Links(): JSX.Element {
                         <div className="child">10 minutes</div>
                     </div>
                 </div>
-                <div className="flex flex-row justify-center items-center py-5">
-                    <button className=" flex flex-row justify-center items-center w-full bg-blue-900 p-2 rounded-sm" type="submit">Create Order</button>
-                </div>
+                <Link href="/confirm">
+                    <div className="flex flex-row justify-center items-center py-5">
+                        <button className=" flex flex-row justify-center items-center w-full bg-blue-900 p-2 rounded-sm" type="submit">Create Order</button>
+                    </div>
+                </Link>
 
             </div>
-        </main>
+        </main >
     );
 }
